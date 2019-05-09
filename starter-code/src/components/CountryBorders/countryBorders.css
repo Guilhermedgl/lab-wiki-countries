@@ -1,4 +1,5 @@
 .countryBorders-li {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
+  list-style: none;
 }

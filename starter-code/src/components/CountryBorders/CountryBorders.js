@@ -11,7 +11,7 @@ const CountryBorders = ({country, countries}) => {
           {country.borders.map((border) => {
             let borderName = countries.find(country => country.cca3 === border);
             return <li className="countryBorders-li">
-              <Link to={border}>{borderName.name.common}</Link>
+              <Link to={border}>{borderName.flag} {borderName.name.common}</Link>
             </li>
           })}
         </ul>
