@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import ListCountries from './components/ListCountries'
-import NavBar from './components/NavBar'
+import Navbar from './components/Navbar/Navbar'
+import HomePage from './components/HomePage/HomePage';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
-        <ListCountries />
+        <Navbar />
+        <HomePage />
       </div>
     );
   }
